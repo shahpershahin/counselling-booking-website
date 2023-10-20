@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>contact</title>
+  <link rel="stylesheet" href="contact.css">
+  <script>
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Validate the name field
+      const nameField = form.querySelector('input[name="name"]');
+      if (nameField.value === '') {
+        alert('Please enter your name.');
+        return;
+      }
+
+      // Validate the feedback field
+      const feedbackField = form.querySelector('textarea[name="feedback"]');
+      if (feedbackField.value === '') {
+        alert('Please enter your feedback.');
+        return;
+      }
+
+      // Submit the form if everything is valid
+      form.submit();
+    });
+  </script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="./index.html" class="logo">Bookify</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Sessions</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="book.html">Booking</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <h1 class="find">Find Bookify here</h1>
+  <div class="image-text-row">
+    <div class="image-text-group">
+      <img src="./images/x-logo.png" alt="Image 1">
+      <p><h3> <center >X(formerly twitter)</center></h3></p>
+    </div>
+
+    <div class="image-text-group">
+      <img src="./images/iconmonstr-linkedin-3.png" alt="Fitness-Sports">
+      <p><h3><center>Linkedin</center></h3></p>
+    </div>
+
+    <div class="image-text-group">
+      <img src="./images/facebook_svg.png" alt="Marketing">
+      <p><h3> <center >Facebook</center></h3></p>
+    </div>
+
+    <div class="image-text-group">
+      <img src="./images/iconmonstr-rss-feed-2.png" alt="Health-Wellness" style="border-radius: 50%;">
+      <p><h3> <center >Our Blog</center></h3></p>
+    </div>
+
+
+  </div>
+
+
+  <div class="container">
+    <h1>Suggestions and Reviews</h1>
+
+    <!-- <form action=".">
+      <input class="input" type="text" name="name" placeholder="Your name" required>
+      <textarea class="textarea" name="feedback" placeholder="Your suggestions and reviews" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form> -->
+    <form action=".">
+      <input class="input" type="text" name="name" placeholder="Your name" required>
+      <textarea class="textarea" name="feedback" placeholder="Your suggestions and reviews" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

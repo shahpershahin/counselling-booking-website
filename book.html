@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>booking</title>
+  <link rel="stylesheet" href="book.css">
+  <link rel="stylesheet" href="book.js">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="./index.html" class="logo">Bookify</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Sessions</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="book.html">Booking</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="book">
+    <div class="container flex_space">
+      <div class="form">
+        <h1 class="appoint"> <center> Book Your Appointment Here </center></h1>
+
+        <form action=".">
+          <div class="input-group">
+            <label for="name">Your name</label>
+            <input type="text" name="name" placeholder="Your name" required>
+          </div>
+
+          <div class="input-group">
+            <label for="email">Your email</label>
+            <input type="email" name="email" placeholder="Your email" required>
+          </div>
+
+          <div class="input-group">
+            <label for="phone">Your phone</label>
+            <input type="number" name="phone" placeholder="Your phone" required>
+          </div>
+
+          <div class="input-group">
+            <label for="date">Date</label>
+            <input type="date" name="date" placeholder="Date" required>
+          </div>
+
+          <div class="input-group">
+            <label for="time">Time</label>
+            <input type="time" name="time" placeholder="Time" required>
+          </div>
+
+          <div class="input-group">
+            <label for="service">Type of Session</label>
+            <select name="service" id="service" class="select-menu">
+              <option value="Salon">Individual</option>
+              <option value="Fitness-Sports">Couple</option>
+              <option value="marketing">Family</option>
+              <option value="Health-Wellness">Group</option>
+              <option value="Health-Wellness">Teenager</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="quantity">Quantity</label>
+            <input type="number" name="services[service]" class="service-quantity" min="1" value="1">
+          </div>
+
+          <div class="input-group">
+            <label for="quantity">Why to book the appointment?</label>
+            <input class="text-area" name="feedback" placeholder="Your suggestions and reviews" required>
+          </div>
+          <div class="button">
+            <button type="submit">Book Appointment</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

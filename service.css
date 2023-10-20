@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+body {
+  background-image: url('./images/gif.gif');
+  color: #000000;
+  margin: 0;
+  padding: 0;
+
+}
+.navbar {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Gideon Roman', cursive;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-bottom: 60px;
+}
+
+.navbar .logo {
+  float: left;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+
+}
+
+.navbar li {
+  float:left;
+  padding: 10px;
+
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 100px;
+  padding-right: 70px;
+  text-align: center;
+}
+
+.navbar a:hover {
+
+  background-color: #fff;
+  border-radius: 100%;
+  color: #000;
+}
+
+
+.image-text-row {
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+}
+
+.image-text-group {
+  width: 100px;
+  margin: 10px;
+}
+
+.image-text-group img {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.image-text-group p {
+  text-align: center;
+}
+.card {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: grid;
+  grid-gap: 20px;
+  display: flex;
+  padding-bottom: 4%;
+
+.div1{
+    box-shadow: 0 4px 8px 0 #00000033;
+    transition: 0.3s;
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.div1:hover {
+  box-shadow: 0 12px 18px 0 #fcac01;
+}
+
+.container1 {
+  padding: 2px 16px;
+}
+
+.div2{
+  box-shadow: 0 4px 8px 0 #00000033;
+  transition: 0.3s;
+  width: 30%;
+  padding-right: 10px;
+  padding-left: 20px;
+  }
+
+  .div2:hover {
+    box-shadow: 0 12px 18px 0 #fcac01;
+  }
+
+  .container2 {
+    padding: 2px 16px;
+  }
+
+  .div3{
+    box-shadow: 0 4px 8px 0 #00000033;
+    transition: 0.3s;
+    width: 30%;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.div3:hover {
+  box-shadow: 0 12px 18px 0 #fcac01;
+}
+
+.container3 {
+  padding: 2px 16px;
+}
+
+.div4{
+  box-shadow: 0 4px 8px 0 #00000033;
+  transition: 0.3s;
+  width: 30%;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.div4:hover {
+  box-shadow: 0 12px 18px 0 #fcac01;
+}
+
+.container4 {
+  padding: 2px 16px;
+}
+.rating{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+}
+
+
+.button{
+  background-color: #c8bdbd35;
+  font-family:serif;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}

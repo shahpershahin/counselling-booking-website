@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookify</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.js">
+
+</head>
+<body>
+    <nav class="navbar">
+      <a href="./index.html" class="logo">Bookify</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service.html">Sessions</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="book.html">Booking</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+  <h1 class="header">
+    Discover the easiest way to <br> schedule counselling  appointments <br> with the #1 online booking system Bookify
+  </h1>
+
+    <h3 class="subheader">
+      Book your counseling appointments online, 24/7, <br>with our all-in-one counseling appointment booking software. <br> Save time and hassle, and focus on what you do best: helping your clients
+    </h3>
+<br>
+<br>
+
+  <h2 class="test" style="padding-left: 2%; padding-top: 4%; padding-bottom: 3%; text-align: center;">Bookify can serve almost any counseling service</h2>
+  <div class="image-text-row">
+    <div class="image-text-group">
+      <img src="./images/individual.png" alt="Image 1">
+      <p><h3> <center >Individual Counselling</center></h3></p>
+    </div>
+
+    <div class="image-text-group">
+      <img src="./images/couple.jpeg" alt="Couple">
+      <p><h3><center>Couple Counselling</center></h3></p>
+    </div>
+
+    <div class="image-text-group">
+      <img src="./images/family.png" alt="family">
+      <p><h3> <center >Family Counselling</center></h3></p>
+    </div>
+
+    <div class="image-text-group">
+      <img src="./images/group.svg" alt="Group">
+      <p><h3> <center >Group Counselling</center></h3></p>
+    </div>
+  </div>
+
+
+<br>
+<br>
+
+<section class="book">
+  <div class="container flex_space">
+    <div class="form">
+      <h1 class="appoint"> <center> Book Your Appointment Here </center></h1>
+
+      <form action=".">
+        <input type="text" name="name" id="name" placeholder="Your name" required>
+        <input type="email" name="email" id="email" placeholder="Your email" required>
+        <input type="number" name="phone" id="phone" placeholder="Your phone" required>
+        <input type="date" name="date" id="date" placeholder="Date" required>
+        <input type="time" name="time" id="time" placeholder="Time" required>
+
+        <div class="services-container">
+          <h3>Services</h3>
+
+          <div class="service">
+            <div class="service-name">Service </div>
+            <select name="service" id="service" class="select-menu">
+              <option value="Salon">Individual</option>
+              <option value="Fitness-Sports">Couple</option>
+              <option value="marketing">Family</option>
+              <option value="Health-Wellness">Group</option>
+              <option value="Health-Wellness">Teenager</option>
+            </select>
+          </div>
+
+          <div class="service">
+            <div class="service-name">Quantity</div>
+            <input type="number" name="services[service]" class="service-quantity" min="1" value="1">
+          </div>
+        </div>
+
+        <div class="button">
+          <button type="submit">Book Appointment</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+    <center><h2>Your peace of mind is our priority.</h2></center>
+    <div class="mind">
+      <div class="priority1">
+      <div class="priority1_container1">
+        <h4><b>Super Support</b></h4>
+        <p>Bookify is supported by a team of dedicated professionals who
+        are always available via email, chat and phone</p>
+      </div>
+    </div>
+
+    <div class="priority2">
+      <div class="priority2_container2">
+        <h4><b>Multi-Location Management</b></h4>
+        <p>Bookify grows with your business! When you expand your business
+          to multiple locations, Bookify allows easy management of all your
+          locations & clients from a centralized admin portal
+        </p>
+      </div>
+    </div>
+
+    <div class="priority3">
+      <div class="priority3_container3">
+        <h4><b>Free Setup Assistance & Easy Migration</b></h4>
+        <p>Easy and free personalized setup assistance from people
+          who have onboarded thousands of businesses, you get started with Bookify
+          in no time. </p>
+      </div>
+    </div>
+
+    <div class="priority4">
+      <div class="priority4_container4">
+        <h4><b>Security</b></h4>
+        <p>We take customer data security very seriously. Your data is safe.
+          Our application is with the highest
+           standards of reliability and data security
+        </p>
+      </div>
+    </div>
+
+
+
+    </div>
+  </body>
+</html>
